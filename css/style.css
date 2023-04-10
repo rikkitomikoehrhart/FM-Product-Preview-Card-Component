@@ -1,0 +1,102 @@
+/* HTML Selectors*/
+body {
+    color: hsl(212, 21%, 14%);
+    background: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-right: 20%;
+    padding-left: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+
+h6 {
+    padding-left: 5%;
+    line-height: .75;
+}
+
+p {
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+
+
+/* Class Selectors*/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;    
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    margin: auto;
+    padding: 12px 28px;
+    text-align: center;
+    width: 90%;
+}
+
+.original-price {
+    padding-left: 100%;
+    text-decoration: line-through;
+}
+
+.product-column-one {
+    border-radius: 5% 0 0 5%;
+    background-color: white;
+    padding: 0;
+    width: 300px;
+}
+
+.product-column-two {
+    background: white;
+    border-radius: 0 5% 5% 0;
+    padding: 0;
+    width: 300px;
+}
+
+.product-image {
+    border-radius: 5% 0 0 5%;
+    display: block;
+    padding: 0;
+    width: 300px;
+}
+
+.product-table {
+    border: 0;
+    border-spacing: 0;
+    margin: auto;
+    padding-top: 15%;
+    width: 600px;
+}
+
+
+/* HTML Selectors*/
+
+
+
+
+/* HTML Selectors*/
