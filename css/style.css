@@ -9,6 +9,7 @@ body {
 h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
+    font-size: 24px;
     padding-right: 20%;
     padding-left: 5%;
     padding-top: 0;
@@ -26,10 +27,14 @@ h2 {
 h6 {
     padding-left: 5%;
     line-height: .75;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: hsl(228, 12%, 48%);
 }
 
 p {
     font-size: 14px;
+    font-weight: 200;
     padding-left: 5%;
     padding-right: 20%;
 }
@@ -62,24 +67,31 @@ p {
 .original-price {
     padding-left: 100%;
     text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
 }
 
 .product-column-one {
-    border-radius: 5% 0 0 5%;
     background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: 0;
     width: 300px;
 }
 
 .product-column-two {
     background: white;
-    border-radius: 0 5% 5% 0;
-    padding: 0;
-    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 350px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .product-image {
-    border-radius: 5% 0 0 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     display: block;
     padding: 0;
     width: 300px;
@@ -89,6 +101,7 @@ p {
     border: 0;
     border-spacing: 0;
     margin: auto;
+    padding-bottom: 50px;
     padding-top: 15%;
     width: 600px;
 }
